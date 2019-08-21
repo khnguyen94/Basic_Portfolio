@@ -1,0 +1,47 @@
+.container {
+    margin: 0 auto;
+}
+.topnav {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlink {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.para {
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777; 
+}
+
+.main-headline {
+    overflow: auto;
+}
+
+.topname {
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.topnav {
+    float: right;
+}
+
+.proj-item {
+    list-style: none;
+    float: left;
+    width: 20%; 
+    height: 300px;
+    background: #;
+    margin: 40px 40px 0px 50px; 
+}
