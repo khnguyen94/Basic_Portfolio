@@ -11,41 +11,55 @@
 <body>
 
     <div class="container">
-
-        <div class="main-headline">
-
-            <h1 class="topname"> Khoa Nguyen </h1>
-        
-            <div class="topnav">
-                <a href="#about">About<out/a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
+        <div class="container-inner">
+            <div class="headline">
+                <div class="headline-inner">
+                    <div class="headline-innerleft">
+                        <h3 class="headline-name"> Khoa Nguyen </h3>
+                    </div>
+                    <div class="headline-innerright">
+                        <div class="headline-nav">
+                            <ul class="headline-navbar">
+                                <li class="navlink"><a href="../Basic_Portfolio/index.html">About</a></out></li>
+                                <li class="navlink"><a href="../Basic_Portfolio/portfolio.html">Portfolio</a></li>
+                                <li class="navlink"><a href="../Basic_Portfolio/contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+        <hr width="100%">
+
+            <div class="bottomsection">
+                <div class="panel">
+                    <div class="panel-inner">
+                        <div class="panel-headline">
+                                <h3> Contact </h3>
+                        </div>
+                        <hr>
+                        <div class="panel-body">
+                            <form class="contactform">
+                                Name<br>
+                                <input class="textbox" type="text" name="fullname" value="John Smith"><br>
+                                Email<br>
+                                <input class="textbox" type="text" name="emailaddress" value="Email"><br>
+                                Message<br>
+                                <input class="textbox" id="textboxmsg" type="text" name="message">
+                                <br><br>
+                                <input id="submitbutton" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+                <footer>
+                        <p>© Khoa Nguyen All Rights Reserved</p>
+                </footer>
 
         </div>
 
-        <div class="panel">
-            <div class="panel headline">
-                <h2> Contact </h2>
-            </div>
-            <div class="panel body-form">
-                <form action="#locationwrittento">
-                    Name:
-                    <br>
-                    <input type="text" name="name">
-                    <br>
-                    Email:
-                    <br>
-                    <input type="text" name="email">
-                    <br>
-                    Message: 
-                    <br>
-                    <input type="text" name="message">
-                    <br><br>
-                    <input type="submit" value="Submit">
-              </form> 
-            </div>
-        </div>
     </div>
 </body>
 </html>
