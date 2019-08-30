@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+    /* use width:100% and max-width: 960px to indicate that you want it to span the entire length of the webpage and but when the webpage is longer than 960px, then set that as the limit */
     width: 100%;
     max-width: 960px;
     margin: 0 auto; 
@@ -81,6 +82,32 @@ nav a {
 nav a:first-child {
     border-left: none;
 }
+
+/* main content styling */
+#main-container {
+    padding-top: 130px; 
+    /* use calc() to calculate the width of a <div> element */
+    min-height: calc(100% - 70px);
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 30px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.author-pic {
+    float: left;
+    width: 200px; 
+    height: auto; 
+    margin-top: 10px; 
+    margin-right: 25px;
+}
+
 
 
 /* footer styling */
