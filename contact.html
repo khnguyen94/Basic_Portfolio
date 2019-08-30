@@ -24,7 +24,7 @@
 
             <h1>Contact</h1>
 
-            <form action="#">
+            <form id="contact-form" action="#">
                 <ul>
                     <li>
                         <label for="name">Name</label>
@@ -32,15 +32,15 @@
                     </li>
                     <li>
                         <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="j.smith@provider.com"
+                        <input type="email" id="email" name="email" placeholder="j.smith@provider.com"
                             required="required">
                     </li>
                     <li>
                         <label for="message">Message</label>
-                        <input type="text" id="message" name="message" placeholder="Type your message here"
-                            required="required">
+                        <textarea id="message" name="message" cols="30" rows="10" required="required"></textarea>
                     </li>
                 </ul>
+                <input type="submit">
             </form>
         </section>
     </div>
